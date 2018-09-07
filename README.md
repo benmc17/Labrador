@@ -18,7 +18,7 @@ billReader.findMpan('./MyBill.pdf', 'my energy provider')
 
 ## Design
 
-The MPAP parser function has been written as a library function that returns a Promise, to used within a Node application. The function has been written using TDD and enforcing single responsibility.
+The MPAN reader function has been written as a library function that returns a Promise, to used within a Node application. The function has been written using TDD and enforcing single responsibility.
 
 The two main steps are to parse the pdf and then to find the MPAN:
 - pdf-parser.js - Parses the PDF
