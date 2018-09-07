@@ -1,0 +1,21 @@
+{
+  "name": "labrador-bill-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bill-reader.js",
+  "scripts": {
+    "test": "mocha ./test/*.test.js"
+  },
+  "author": "Ben McGiveron",
+  "license": "ISC",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^5.2.0",
+    "proxyquire": "^2.1.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "path": "^0.12.7",
+    "pdf-parse": "^1.0.8"
+  }
+}
